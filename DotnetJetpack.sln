@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9EBC3DC9-FFCD-4195-9E63-AC58E741290F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetJetpack.Core", "src\DotnetJetpack.Core\DotnetJetpack.Core.csproj", "{C2B706F0-E6E4-486C-B78A-23EFA623FA3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetJetpack.Infrastructure", "src\DotnetJetpack.Infrastructure\DotnetJetpack.Infrastructure.csproj", "{D81B021A-0F3A-4C18-A4C1-DF6EE33DA92F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetJetpack.API", "src\DotnetJetpack.API\DotnetJetpack.API.csproj", "{32F5128B-1DF3-4DF7-8B9B-30886E7E7B7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6BB66120-B249-41DF-AE00-24B4DBF05601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetJetpack.UnitTests", "tests\DotnetJetpack.UnitTests\DotnetJetpack.UnitTests.csproj", "{BD273466-BC3E-4E04-B359-84F20DD3140F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetJetpack.IntegrationTests", "tests\DotnetJetpack.IntegrationTests\DotnetJetpack.IntegrationTests.csproj", "{7D5CF57D-B0FD-43D3-A525-C6A71D1476E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2B706F0-E6E4-486C-B78A-23EFA623FA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B706F0-E6E4-486C-B78A-23EFA623FA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B706F0-E6E4-486C-B78A-23EFA623FA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B706F0-E6E4-486C-B78A-23EFA623FA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D81B021A-0F3A-4C18-A4C1-DF6EE33DA92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81B021A-0F3A-4C18-A4C1-DF6EE33DA92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81B021A-0F3A-4C18-A4C1-DF6EE33DA92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81B021A-0F3A-4C18-A4C1-DF6EE33DA92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F5128B-1DF3-4DF7-8B9B-30886E7E7B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F5128B-1DF3-4DF7-8B9B-30886E7E7B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F5128B-1DF3-4DF7-8B9B-30886E7E7B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F5128B-1DF3-4DF7-8B9B-30886E7E7B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD273466-BC3E-4E04-B359-84F20DD3140F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD273466-BC3E-4E04-B359-84F20DD3140F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD273466-BC3E-4E04-B359-84F20DD3140F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD273466-BC3E-4E04-B359-84F20DD3140F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5CF57D-B0FD-43D3-A525-C6A71D1476E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5CF57D-B0FD-43D3-A525-C6A71D1476E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5CF57D-B0FD-43D3-A525-C6A71D1476E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5CF57D-B0FD-43D3-A525-C6A71D1476E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2B706F0-E6E4-486C-B78A-23EFA623FA3B} = {9EBC3DC9-FFCD-4195-9E63-AC58E741290F}
+		{D81B021A-0F3A-4C18-A4C1-DF6EE33DA92F} = {9EBC3DC9-FFCD-4195-9E63-AC58E741290F}
+		{32F5128B-1DF3-4DF7-8B9B-30886E7E7B7E} = {9EBC3DC9-FFCD-4195-9E63-AC58E741290F}
+		{BD273466-BC3E-4E04-B359-84F20DD3140F} = {6BB66120-B249-41DF-AE00-24B4DBF05601}
+		{7D5CF57D-B0FD-43D3-A525-C6A71D1476E9} = {6BB66120-B249-41DF-AE00-24B4DBF05601}
+	EndGlobalSection
+EndGlobal
