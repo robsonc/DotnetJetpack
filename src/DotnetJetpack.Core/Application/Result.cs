@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace DotnetJetpack.Core.Application
 {
     public class Result<T>
